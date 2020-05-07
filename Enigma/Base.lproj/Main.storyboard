@@ -324,10 +324,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rNG-2y-o62">
-                                <rect key="frame" x="0.0" y="340" width="414" height="216"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <gestureRecognizers/>
@@ -365,7 +361,6 @@
                         <outlet property="menuOptions" destination="YFY-V7-25p" id="2VM-es-M0Q"/>
                         <outlet property="multiLine" destination="k4C-mL-sYz" id="AFj-T9-zFS"/>
                         <outlet property="passwordEncrypt" destination="7Jd-bm-yr8" id="Odt-0D-Uwg"/>
-                        <outlet property="passwordPicker" destination="rNG-2y-o62" id="cGP-la-MYA"/>
                         <outlet property="quitButton2" destination="GaH-hT-8QH" id="wZB-Rj-xtq"/>
                         <outlet property="secretDiary" destination="wMN-hr-aB8" id="Cer-Eg-DzS"/>
                         <outlet property="singleLine" destination="EvX-Fd-Agq" id="sEQ-jq-KYC"/>

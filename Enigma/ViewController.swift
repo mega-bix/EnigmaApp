@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         quitButton2.layer.cornerRadius = 10
         passwordPicker.delegate = self as! UIPickerViewDelegate
         passwordPicker.dataSource = self as! UIPickerViewDataSource
+        
     }
     struct defaultsKey {
         static let passwordName: Array<String> = Array<String>()
@@ -67,6 +68,7 @@ class ViewController: UIViewController {
             menuOptions.alpha = 0
             info.alpha = 1
             menuOptions.alpha = 0
+            quitButton2.alpha = 0
             quitButton2.alpha = 0
         }
         multiLine.isEditable = false
